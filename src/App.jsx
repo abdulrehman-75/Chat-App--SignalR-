@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import WaitingRoom from './components/waitingRoom.jsx';
 import ChatRoom from './components/chatRoom.jsx';
-import { ErrorBanner } from './components/common/ErrorBanner.jsx';
+import { ErrorBanner } from './components/common/errorBanner.jsx';
 import { useSignalR } from './hooks/useSignalR.js';
 import { useChatRoom } from './hooks/useChatRoom.js';
 import { ChatService } from './services/chatService.js';
