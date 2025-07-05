@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import { FormField } from './common/formFeild.jsx';
-import { LoadingButton } from './common/loadingBtn.jsx';
+import { FormField } from './Common/formFeild.jsx';
+import { LoadingButton } from './Common/loadingBtn.jsx';
 
 export default function WaitingRoom({ onJoinChatRoom, isConnecting = false }) {
   const {
